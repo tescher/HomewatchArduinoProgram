@@ -14,9 +14,9 @@ int addr = 0;
 
 void setup()
 {
-  char mac[] = { 0x90, 0xA2, 0xDA, 0x00, 0xE3, 0x86 };
+  char mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };  // Just needs to be unique on netwoek. Write on project case
   char server[] = "www.escherhomewatch.com";
-  char controller[] = "BasementArduino";
+  char controller[] = "AK Hut";
   
   int i = 0;
   
